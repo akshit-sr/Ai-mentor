@@ -1,0 +1,24 @@
+{
+  "skills": {
+    "python":        ["python", "py", "python3"],
+    "java":          ["java", "jvm"],
+    "javascript":    ["javascript", "js", "es6", "ecmascript"],
+    "typescript":    ["typescript", "ts"],
+    "react":         ["react", "reactjs", "react.js"],
+    "spring":        ["spring", "spring boot", "springboot"],
+    "sql":           ["sql", "postgres", "postgresql", "mysql", "sqlite"],
+    "nosql":         ["mongodb", "mongo", "nosql", "dynamodb", "cassandra"],
+    "docker":        ["docker", "containers", "containerization"],
+    "kubernetes":    ["kubernetes", "k8s"],
+    "aws":           ["aws", "amazon web services", "ec2", "s3", "lambda"],
+    "git":           ["git", "github", "gitlab", "version control"],
+    "rest_api":      ["rest", "rest api", "restful", "api design"],
+    "machine_learning": ["machine learning", "ml", "scikit-learn", "sklearn", "tensorflow", "pytorch"],
+    "data_analysis": ["pandas", "numpy", "data analysis", "data science"],
+    "ci_cd":         ["ci/cd", "cicd", "jenkins", "github actions", "continuous integration"],
+    "testing":       ["unit testing", "pytest", "junit", "jest", "test automation"],
+    "html_css":      ["html", "css", "sass", "tailwind"],
+    "node":          ["node", "nodejs", "node.js", "express"],
+    "graphql":       ["graphql", "apollo"]
+  }
+}

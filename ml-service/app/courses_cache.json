@@ -1,0 +1,184 @@
+{
+  "tensorflow": [
+    {
+      "title": "Introduction to TensorFlow",
+      "url": "https://www.tensorflow.org/learn",
+      "source": "tensorflow.org",
+      "type": "free"
+    },
+    {
+      "title": "Introduction to TensorFlow for Artificial Intelligence, Machine ...",
+      "url": "https://www.coursera.org/learn/introduction-tensorflow",
+      "source": "coursera.org",
+      "type": "paid"
+    },
+    {
+      "title": "TensorFlow Tutorial - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/deep-learning/tensorflow/",
+      "source": "geeksforgeeks.org",
+      "type": "free"
+    },
+    {
+      "title": "TensorFlow - YouTube",
+      "url": "https://www.youtube.com/@TensorFlow/courses",
+      "source": "youtube.com",
+      "type": "free"
+    }
+  ],
+  "data science": [
+    {
+      "title": "Data Science Online Courses | Coursera",
+      "url": "https://www.coursera.org/browse/data-science",
+      "source": "coursera.org",
+      "type": "paid"
+    },
+    {
+      "title": "Data Science Tutorial - W3Schools",
+      "url": "https://www.w3schools.com/datascience/default.asp",
+      "source": "w3schools.com",
+      "type": "free"
+    },
+    {
+      "title": "Data Science Tutorial - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/data-science/data-science-for-beginners/",
+      "source": "geeksforgeeks.org",
+      "type": "free"
+    },
+    {
+      "title": "15 free MIT data science courses | Open Learning",
+      "url": "https://openlearning.mit.edu/news/15-free-mit-data-science-courses",
+      "source": "openlearning.mit.edu",
+      "type": "free"
+    }
+  ],
+  "statistical analysis": [
+    {
+      "title": "Best Statistical Analysis Courses & Certificates [2026] | Coursera",
+      "url": "https://www.coursera.org/courses?query=statistical analysis",
+      "source": "coursera.org",
+      "type": "paid"
+    },
+    {
+      "title": "Statistical Analysis Free Course with Certificate - Great Learning",
+      "url": "https://www.mygreatlearning.com/academy/learn-for-free/courses/statistical-analysis",
+      "source": "mygreatlearning.com",
+      "type": "free"
+    },
+    {
+      "title": "Statistical Thinking (STIPS) - Free Online Statistics Course",
+      "url": "https://www.jmp.com/en/online-statistics-course",
+      "source": "jmp.com",
+      "type": "free"
+    },
+    {
+      "title": "Online Statistics Courses & Training | Statistical Horizons",
+      "url": "https://statisticalhorizons.com/",
+      "source": "statisticalhorizons.com",
+      "type": "free"
+    }
+  ],
+  "restful apis": [
+    {
+      "title": "Getting Started with APIs - Coursera",
+      "url": "https://www.coursera.org/learn/getting-started-with-apis",
+      "source": "coursera.org",
+      "type": "paid"
+    },
+    {
+      "title": "Top REST API Courses Online - Updated [July 2026] - Udemy",
+      "url": "https://www.udemy.com/topic/rest-api/",
+      "source": "udemy.com",
+      "type": "paid"
+    },
+    {
+      "title": "APIs Online Training Courses | LinkedIn Learning, formerly Lynda.com",
+      "url": "https://www.linkedin.com/learning/topics/apis",
+      "source": "linkedin.com",
+      "type": "paid"
+    },
+    {
+      "title": "REST API Training (4 Courses Bundle, Online Certification) - EDUCBA",
+      "url": "https://www.educba.com/software-development/courses/rest-api-training/",
+      "source": "educba.com",
+      "type": "free"
+    }
+  ],
+  "testing and debugging": [
+    {
+      "title": "Top Debugging Courses Online - Updated [July 2026] - Udemy",
+      "url": "https://www.udemy.com/topic/Debugging/",
+      "source": "udemy.com",
+      "type": "paid"
+    },
+    {
+      "title": "Software Testing Online Training Courses - LinkedIn",
+      "url": "https://www.linkedin.com/learning/topics/software-testing",
+      "source": "linkedin.com",
+      "type": "paid"
+    },
+    {
+      "title": "Top 12 debugging Courses & Certifications Online 2026 - Shiksha",
+      "url": "https://www.shiksha.com/online-courses/debugging-certification",
+      "source": "shiksha.com",
+      "type": "free"
+    },
+    {
+      "title": "Troubleshooting and Debugging Techniques - Coursera",
+      "url": "https://www.coursera.org/learn/troubleshooting-debugging-techniques",
+      "source": "coursera.org",
+      "type": "paid"
+    }
+  ],
+  "problem solving": [
+    {
+      "title": "Best Problem Solving Courses & Certificates [2026] | Coursera",
+      "url": "https://www.coursera.org/courses?query=problem solving",
+      "source": "coursera.org",
+      "type": "paid"
+    },
+    {
+      "title": "Best Online Problem Solving Courses and Programs | edX",
+      "url": "https://www.edx.org/learn/problem-solving",
+      "source": "edx.org",
+      "type": "free"
+    },
+    {
+      "title": "Free Problem Solving Skills Courses Online with Certificates - 2026",
+      "url": "https://www.upgrad.com/free-courses/mba-and-management/guide-to-problem-solving-skills-course-free/",
+      "source": "upgrad.com",
+      "type": "free"
+    },
+    {
+      "title": "Top Problem Solving Courses Online - Updated [July 2026] - Udemy",
+      "url": "https://www.udemy.com/topic/problem-solving/",
+      "source": "udemy.com",
+      "type": "paid"
+    }
+  ],
+  "algorithm design": [
+    {
+      "title": "Algorithm Design: Mastering Computational Problem Solving",
+      "url": "https://www.coursera.org/learn/bits-algorithm-design",
+      "source": "coursera.org",
+      "type": "paid"
+    },
+    {
+      "title": "800+ Algorithm Design Online Courses for 2026 - Class Central",
+      "url": "https://www.classcentral.com/subject/algorithm-design",
+      "source": "classcentral.com",
+      "type": "free"
+    },
+    {
+      "title": "Algorithms I Stanford Online",
+      "url": "https://online.stanford.edu/courses/soe-ycsalgorithms1-algorithms-design-and-analysis-part-1",
+      "source": "online.stanford.edu",
+      "type": "free"
+    },
+    {
+      "title": "Design and Analysis of Algorithms Tutorial - Online Tutorials Library",
+      "url": "https://www.tutorialspoint.com/design_and_analysis_of_algorithms/index.htm",
+      "source": "tutorialspoint.com",
+      "type": "free"
+    }
+  ]
+}

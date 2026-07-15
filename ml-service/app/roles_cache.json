@@ -1,0 +1,430 @@
+{
+  "machine learning engineer": {
+    "title": "Machine Learning Engineer",
+    "required": {
+      "python": 3,
+      "machine learning algorithms": 3,
+      "deep learning": 2,
+      "statistical analysis": 3,
+      "data visualization": 2,
+      "tensorflow": 1,
+      "scikit-learn": 2,
+      "natural language processing (nlp)": 1,
+      "feature engineering": 3,
+      "model deployment": 2,
+      "git": 2
+    },
+    "aliases": {
+      "python": [
+        "python"
+      ],
+      "machine learning algorithms": [
+        "machine learning algorithms"
+      ],
+      "deep learning": [
+        "deep learning"
+      ],
+      "statistical analysis": [
+        "statistical analysis"
+      ],
+      "data visualization": [
+        "data vis",
+        "data visualization"
+      ],
+      "tensorflow": [
+        "tensorflow"
+      ],
+      "scikit-learn": [
+        "scikit learn",
+        "scikit-learn"
+      ],
+      "natural language processing (nlp)": [
+        "natural language processing (nlp)",
+        "nlp"
+      ],
+      "feature engineering": [
+        "feature engineering"
+      ],
+      "model deployment": [
+        "model deployment"
+      ],
+      "git": [
+        "git",
+        "git version control"
+      ]
+    }
+  },
+  "ai engineer": {
+    "title": "AI Engineer",
+    "required": {
+      "machine learning": 3,
+      "deep learning": 3,
+      "python programming": 3,
+      "natural language processing (nlp)": 2,
+      "data science": 2,
+      "statistical analysis": 2,
+      "tensorflow": 1,
+      "pytorch": 1,
+      "scikit-learn": 2,
+      "git version control": 1
+    },
+    "aliases": {
+      "machine learning": [
+        "machine learning",
+        "ml"
+      ],
+      "deep learning": [
+        "deep learning",
+        "dl"
+      ],
+      "python programming": [
+        "py",
+        "python",
+        "python programming"
+      ],
+      "natural language processing (nlp)": [
+        "natural language processing (nlp)",
+        "nlp"
+      ],
+      "data science": [
+        "data science"
+      ],
+      "statistical analysis": [
+        "statistical analysis"
+      ],
+      "tensorflow": [
+        "tensorflow"
+      ],
+      "pytorch": [
+        "pytorch"
+      ],
+      "scikit-learn": [
+        "scikit-learn"
+      ],
+      "git version control": [
+        "git",
+        "git version control"
+      ]
+    }
+  },
+  "full-stack engineer": {
+    "title": "Full-Stack Engineer",
+    "required": {
+      "javascript": 3,
+      "react.js": 2,
+      "node.js": 3,
+      "sql": 3,
+      "restful apis": 3,
+      "version control (git)": 2,
+      "html/css": 3,
+      "express.js": 2,
+      "microservices architecture": 1,
+      "testing and debugging": 3,
+      "agile/scrum methodologies": 2
+    },
+    "aliases": {
+      "javascript": [
+        "javascript",
+        "js"
+      ],
+      "react.js": [
+        "react",
+        "react.js"
+      ],
+      "node.js": [
+        "node",
+        "node.js"
+      ],
+      "sql": [
+        "sql"
+      ],
+      "restful apis": [
+        "restful apis"
+      ],
+      "version control (git)": [
+        "git",
+        "version control (git)"
+      ],
+      "html/css": [
+        "css",
+        "html",
+        "html/css"
+      ],
+      "express.js": [
+        "express.js"
+      ],
+      "microservices architecture": [
+        "microservices architecture"
+      ],
+      "testing and debugging": [
+        "debugging",
+        "testing",
+        "testing and debugging"
+      ],
+      "agile/scrum methodologies": [
+        "agile",
+        "agile/scrum methodologies",
+        "scrum"
+      ]
+    }
+  },
+  "frontend engineer": {
+    "title": "Frontend Engineer",
+    "required": {
+      "html": 3,
+      "css": 3,
+      "javascript": 3,
+      "react.js": 2,
+      "vue.js": 1,
+      "angular": 1,
+      "web performance optimization": 2,
+      "responsive design": 3,
+      "version control systems": 2,
+      "restful apis": 2
+    },
+    "aliases": {
+      "html": [
+        "html",
+        "html5"
+      ],
+      "css": [
+        "css",
+        "css3"
+      ],
+      "javascript": [
+        "javascript",
+        "js"
+      ],
+      "react.js": [
+        "react",
+        "react.js"
+      ],
+      "vue.js": [
+        "vue",
+        "vue.js"
+      ],
+      "angular": [
+        "angular"
+      ],
+      "web performance optimization": [
+        "web performance optimization",
+        "wpo"
+      ],
+      "responsive design": [
+        "mobile first",
+        "responsive design"
+      ],
+      "version control systems": [
+        "git",
+        "version control systems"
+      ],
+      "restful apis": [
+        "restful apis"
+      ]
+    }
+  },
+  "software engineer": {
+    "title": "Software Engineer",
+    "required": {
+      "java": 3,
+      "python": 2,
+      "c++": 2,
+      "database management": 2,
+      "version control systems": 3,
+      "agile methodologies": 2,
+      "problem solving": 3,
+      "algorithm design": 3,
+      "software testing": 2,
+      "cloud computing": 1
+    },
+    "aliases": {
+      "java": [
+        "java"
+      ],
+      "python": [
+        "python"
+      ],
+      "c++": [
+        "c++"
+      ],
+      "database management": [
+        "database management",
+        "dbms"
+      ],
+      "version control systems": [
+        "git",
+        "version control",
+        "version control systems"
+      ],
+      "agile methodologies": [
+        "agile",
+        "agile methodologies",
+        "scrum"
+      ],
+      "problem solving": [
+        "problem solving"
+      ],
+      "algorithm design": [
+        "algorithm design"
+      ],
+      "software testing": [
+        "qa",
+        "software testing",
+        "testing"
+      ],
+      "cloud computing": [
+        "aws",
+        "azure",
+        "cloud computing"
+      ]
+    }
+  },
+  "machine learning": {
+    "title": "Machine Learning",
+    "required": {
+      "python": 3,
+      "statistical analysis": 3,
+      "data preprocessing": 2,
+      "feature engineering": 2,
+      "model selection": 3,
+      "neural networks": 2,
+      "natural language processing (nlp)": 1,
+      "machine learning frameworks": 3,
+      "scikit-learn": 2,
+      "tensorflow": 1,
+      "keras": 1,
+      "bayesian methods": 1,
+      "time series analysis": 1
+    },
+    "aliases": {
+      "python": [
+        "python"
+      ],
+      "statistical analysis": [
+        "statistical analysis"
+      ],
+      "data preprocessing": [
+        "data preprocessing"
+      ],
+      "feature engineering": [
+        "feature engineering"
+      ],
+      "model selection": [
+        "model selection"
+      ],
+      "neural networks": [
+        "neural networks",
+        "nn"
+      ],
+      "natural language processing (nlp)": [
+        "natural language processing (nlp)",
+        "nlp"
+      ],
+      "machine learning frameworks": [
+        "machine learning frameworks",
+        "ml frameworks"
+      ],
+      "scikit-learn": [
+        "scikit-learn"
+      ],
+      "tensorflow": [
+        "tensorflow"
+      ],
+      "keras": [
+        "keras"
+      ],
+      "bayesian methods": [
+        "bayesian methods"
+      ],
+      "time series analysis": [
+        "time series analysis"
+      ]
+    }
+  },
+  "data scientist": {
+    "title": "Data Scientist",
+    "required": {
+      "python": 3,
+      "r": 2,
+      "sql": 2,
+      "machine learning": 3,
+      "statistical analysis": 3,
+      "data visualization": 2,
+      "big data technologies": 1,
+      "deep learning": 1,
+      "natural language processing": 1,
+      "business acumen": 2,
+      "data wrangling": 2,
+      "experimentation and a/b testing": 1
+    },
+    "aliases": {
+      "python": [
+        "python"
+      ],
+      "r": [
+        "r"
+      ],
+      "sql": [
+        "sql"
+      ],
+      "machine learning": [
+        "machine learning",
+        "ml"
+      ],
+      "statistical analysis": [
+        "statistical analysis"
+      ],
+      "data visualization": [
+        "data visualization",
+        "dataviz"
+      ],
+      "big data technologies": [
+        "big data technologies",
+        "hadoop",
+        "spark"
+      ],
+      "deep learning": [
+        "deep learning"
+      ],
+      "natural language processing": [
+        "natural language processing",
+        "nlp"
+      ],
+      "business acumen": [
+        "business acumen"
+      ],
+      "data wrangling": [
+        "data wrangling"
+      ],
+      "experimentation and a/b testing": [
+        "a/b testing",
+        "experimentation",
+        "experimentation and a/b testing"
+      ]
+    }
+  },
+  "ai/ml engineer": {
+    "title": "AI/ML Engineer",
+    "required": {
+      "python": 3,
+      "machine learning": 3,
+      "deep learning": 2,
+      "data science": 2
+    },
+    "aliases": {
+      "python": [
+        "python"
+      ],
+      "machine learning": [
+        "machine learning"
+      ],
+      "deep learning": [
+        "deep learning"
+      ],
+      "data science": [
+        "data science",
+        "datascience"
+      ]
+    }
+  }
+}

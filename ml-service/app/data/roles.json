@@ -1,0 +1,32 @@
+{
+  "roles": {
+    "backend_engineer": {
+      "title": "Backend Engineer",
+      "required": {
+        "java": 3, "spring": 3, "sql": 3, "rest_api": 3, "docker": 2,
+        "git": 2, "testing": 2, "aws": 2, "ci_cd": 1, "kubernetes": 1
+      }
+    },
+    "frontend_engineer": {
+      "title": "Frontend Engineer",
+      "required": {
+        "javascript": 3, "typescript": 3, "react": 3, "html_css": 3,
+        "rest_api": 2, "git": 2, "testing": 2, "node": 1, "graphql": 1
+      }
+    },
+    "fullstack_engineer": {
+      "title": "Full-Stack Engineer",
+      "required": {
+        "javascript": 3, "react": 3, "java": 2, "spring": 2, "sql": 3,
+        "rest_api": 3, "docker": 2, "git": 2, "testing": 2, "aws": 1
+      }
+    },
+    "data_scientist": {
+      "title": "Data Scientist",
+      "required": {
+        "python": 3, "machine_learning": 3, "data_analysis": 3, "sql": 3,
+        "git": 2, "aws": 1, "testing": 1
+      }
+    }
+  }
+}

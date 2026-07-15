@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4B47F5"/>
+      <stop offset="1" stop-color="#3E3AED"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#g)"/>
+  <!-- serif M -->
+  <text x="32" y="46" text-anchor="middle" fill="#F6F4EF"
+        font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700">M</text>
+  <!-- upward growth stroke + spark -->
+  <path d="M13 45 L25 34 L33 40 L51 21" fill="none" stroke="#8FE3B0"
+        stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+  <circle cx="51" cy="21" r="3.6" fill="#8FE3B0"/>
+</svg>
