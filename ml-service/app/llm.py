@@ -23,7 +23,9 @@ def _chat(system: str, user: str, temperature: float, timeout: int) -> str:
     """One JSON-mode chat call, provider-agnostic. Returns the raw content string."""
     messages = [{"role": "system", "content": system}, {"role": "user", "content": user}]
     if PROVIDER == "groq":
-        url, headers = GROQ_URL, {"Content-Type": "application/json", "Authorization": f"Bearer {GROQ_KEY}"}
+        # Groq's Cloudflare 403s the default Python-urllib user-agent; send a normal one.
+        url, headers = GROQ_URL, {"Content-Type": "application/json", "User-Agent": "ai-mentor/1.0",
+                                  "Authorization": f"Bearer {GROQ_KEY}"}
         payload = {"model": GROQ_MODEL, "messages": messages, "temperature": temperature,
                    "response_format": {"type": "json_object"}}
     else:
