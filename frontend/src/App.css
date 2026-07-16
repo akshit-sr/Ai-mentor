@@ -403,3 +403,28 @@ button:disabled { opacity: .55; cursor: default; }
 }
 .rm-milestone { margin: 0; font-size: .86rem; color: var(--ink-soft); }
 .rm-milestone b { color: var(--ink); }
+
+/* ---- Mobile ---- */
+@media (max-width: 640px) {
+  .page { padding: 0 16px 56px; }
+  .nav { padding: 12px 16px; margin: 0 -16px; gap: 10px; }
+  .nav-links { gap: 12px; }
+  .nav-user { display: none; }             /* email hogs the bar on phones */
+  .nav-cta { padding: 8px 12px; }
+  .hero { padding: 44px 0 8px; }
+  .lede { font-size: 1rem; }
+  .panel { padding: 18px; }
+  .report { padding: 22px 18px; margin-top: 28px; }
+  .medallion { width: 120px; height: 120px; }
+  .auth-card { padding: 24px 20px; }
+  .auth-wrap { padding: 28px 0; }
+  .hist-title { font-size: 1.6rem; }
+  .hist-open { gap: 10px; }
+  .hist-match { font-size: .84rem; }
+  .hist-chev { display: none; }
+  .chat-body, .chat-head { padding-left: 16px; padding-right: 16px; }
+  .replies { padding: 4px 16px 18px; }
+  .bubble { max-width: 92%; }
+  .rm-phase { padding: 13px 14px; }
+  .cta { padding: 12px 20px; }
+}
