@@ -33,9 +33,9 @@ jobs:
       # Uncomment and set the ML_SERVICE_URL repo variable to your ml-service URL.
       - name: Assess a dummy resume
         run: |
-           ML="${ML_SERVICE_URL}"
-           curl -s --max-time 90 --retry 2 -X POST "$ML/analyze_text" \
-             -H 'Content-Type: application/json' \
-             -d '{"text":"Software engineer with 3 years of Python, FastAPI, PostgreSQL, Docker and REST API experience. Built ML pipelines with scikit-learn.","target_role":"Backend Developer"}'
-         env:
-           ML_SERVICE_URL: ${{ vars.ML_SERVICE_URL }}
+          ML="${ML_SERVICE_URL}"
+          curl -s --max-time 90 --retry 2 -X POST "$ML/analyze_text" \
+            -H 'Content-Type: application/json' \
+            -d '{"text":"Software engineer with 3 years of Python, FastAPI, PostgreSQL, Docker and REST API experience. Built ML pipelines with scikit-learn.","target_role":"Backend Developer"}'
+        env:
+          ML_SERVICE_URL: ${{ vars.ML_SERVICE_URL }}
