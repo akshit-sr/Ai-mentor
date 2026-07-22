@@ -1,6 +1,10 @@
 name: Keep Render Alive
 
-# Pings the backend on a schedule so Render's free instance stays warm.
+# Pings both Render services on a schedule so their free instances stay warm.
+#
+# ORDER MATTERS: the backend's /api/roles forwards to the ml-service, so if the
+# ml-service is asleep that call 500s (backend up, ml down -> 502 upstream).
+# We therefore wake the ml-service FIRST, then hit the backend.
 #
 # NOTE: Render's free tier spins an instance DOWN after ~15 min of inactivity.
 #   - Every 5 hours (below): each ping just wakes a sleeping instance (~30-50s cold start).
@@ -16,21 +20,36 @@ jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-      - name: Wake backend + ml-service via /api/roles
+      - name: Wake ml-service (/health)
+        run: |
+          ML="${ML_SERVICE_URL}"
+          if [ -z "$ML" ]; then
+            echo "ML_SERVICE_URL repo variable is not set — skipping ml wake."
+            echo "Set it under Settings > Secrets and variables > Actions > Variables."
+            exit 1
+          fi
+          echo "Waking $ML/health ..."
+          code=$(curl -s -o /tmp/ml.txt -w '%{http_code}' --max-time 90 --retry 3 --retry-delay 20 "$ML/health")
+          echo "HTTP $code"
+          head -c 300 /tmp/ml.txt; echo
+          [ "${code:0:1}" = "2" ] || { echo "ml-service ping failed"; exit 1; }
+        env:
+          ML_SERVICE_URL: ${{ vars.ML_SERVICE_URL }}
+
+      - name: Wake backend (/api/roles)
         run: |
           BASE="${BASE_URL:-https://ai-mentor-backend-x12k.onrender.com}"
           echo "Pinging $BASE/api/roles ..."
           # --max-time is generous because a cold start can take ~50s.
+          # ml-service is warm by now, so this should return 200.
           code=$(curl -s -o /tmp/body.txt -w '%{http_code}' --max-time 90 --retry 3 --retry-delay 20 "$BASE/api/roles")
           echo "HTTP $code"
           head -c 300 /tmp/body.txt; echo
-          # Treat any 2xx as success.
           [ "${code:0:1}" = "2" ] || { echo "Ping failed"; exit 1; }
         env:
           BASE_URL: ${{ vars.BASE_URL }}
 
       # --- OPTIONAL: actually assess a dummy resume (exercises ML + Groq LLM) ---
-      # Uncomment and set the ML_SERVICE_URL repo variable to your ml-service URL.
       - name: Assess a dummy resume
         run: |
           ML="${ML_SERVICE_URL}"
