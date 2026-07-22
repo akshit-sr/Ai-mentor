@@ -50,11 +50,17 @@ jobs:
           BASE_URL: ${{ vars.BASE_URL }}
 
       # --- OPTIONAL: actually assess a dummy resume (exercises ML + Groq LLM) ---
+      # This makes a Groq LLM call, so it can be slow. It's a bonus, not the
+      # keep-alive itself (the two steps above already do that), so never let it
+      # fail the job.
       - name: Assess a dummy resume
+        continue-on-error: true
         run: |
           ML="${ML_SERVICE_URL%/}"   # strip any trailing slash
-          curl -s --max-time 90 --retry 2 -X POST "$ML/analyze_text" \
+          code=$(curl -s -o /tmp/assess.txt -w '%{http_code}' --max-time 150 -X POST "$ML/analyze_text" \
             -H 'Content-Type: application/json' \
-            -d '{"text":"Software engineer with 3 years of Python, FastAPI, PostgreSQL, Docker and REST API experience. Built ML pipelines with scikit-learn.","target_role":"Backend Developer"}'
+            -d '{"text":"Software engineer with 3 years of Python, FastAPI, PostgreSQL, Docker and REST API experience. Built ML pipelines with scikit-learn.","target_role":"Backend Developer"}')
+          echo "HTTP $code"
+          head -c 300 /tmp/assess.txt; echo
         env:
           ML_SERVICE_URL: ${{ vars.ML_SERVICE_URL }}
